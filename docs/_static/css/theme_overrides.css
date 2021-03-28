@@ -1,0 +1,83 @@
+img {
+  max-width: 98%;
+  box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.75);
+  margin: 1em 0 2.5em 1em
+}
+
+.logo {
+   margin:.5em 0 0 1em; 
+   padding:0 2em 0 0 ;
+   box-shadow: none;
+}
+
+.pagelogo {background-color:white; }
+
+img.headerimage {
+   padding: 0;
+   margin: 0; 
+	-webkit-box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	box-shadow: none!important;
+	}
+
+img.endimage {
+   background-color:white;
+   -webkit-box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	box-shadow: none!important;
+}
+
+.wy-nav-content-wrap {background-color: white;}
+
+h2 {
+   background-image: url("../../_images/pgicon.png"); 
+   background-repeat: no-repeat; 
+   background-position: left center; /* set position of each bg image */
+   padding: 20px 60px; /* 92px is the width of my left and right bg images */
+   height: 60px; /* 120px is the height of each bg image */
+   border-bottom: 1px solid grey;
+}
+
+
+
+h1  {
+   background-image: url("../../_images/hgicon.png");
+   background-position: left center; /* set position of each bg image */
+   background-repeat: no-repeat; /* set repeat of each bg image */
+   padding: 10px 60px; /* 92px is the width of my left and right bg images */
+   height: 60px; /* 120px is the height of each bg image */
+}
+
+div.shadow {   
+   -webkit-box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.75);
+   -moz-box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.75);
+   box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.75);
+   margin:2em;
+   }
+
+
+body {width:90%; background-color: white;}
+
+a.topbarlink {font-weight:bold; padding-right:3em;  font-variant: small-caps; font-size: 90%; color:black;}
+
+.fixedbar {background-color: white; padding:1.2em; margin-top:0;height:5em;position: fixed; margin-bottom:8em;}
+
+.iframe {width: 100%; height: 100%;}
+
+/* override table width restrictions */
+td > p {font-size:90%;}
+th > p {padding-bottom:0; margin-bottom:0;}
+
+@media screen and (min-width: 767px) {
+
+   .wy-table-responsive table td {
+      /* !important prevents the common CSS stylesheets from overriding
+         this as on RTD they are loaded after this stylesheet */
+      white-space: normal !important;
+   }
+
+   .wy-table-responsive {
+      overflow: visible !important;
+   }
+}
+	
