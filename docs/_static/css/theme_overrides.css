@@ -30,11 +30,6 @@ img.endimage {
 .wy-nav-content-wrap {background-color: white;}
 
 h2 {
-   background-image: url("../../_images/pgicon.png"); 
-   background-repeat: no-repeat; 
-   background-position: left center; /* set position of each bg image */
-   padding: 20px 60px; /* 92px is the width of my left and right bg images */
-   height: 60px; /* 120px is the height of each bg image */
    border-bottom: 1px solid grey;
 }
 
