@@ -2,11 +2,6 @@
 Dune Climb
 ************************************************
 
-https://www.windy.com/?45.000,-85.741,9
-
-https://www.ndbc.noaa.gov/station_page.php?station=45002&fbclid=IwAR3TVu2dXanHPiR5DH7GFNMYzbVNCqY_XZuU0H0M1zifWcq2FqCoufyxlTk
-
-
 .. list-table:: 
    :widths: 20 80
    :header-rows: 1

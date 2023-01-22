@@ -36,7 +36,7 @@
   {# JAVASCRIPTS #}
   <script type="text/javascript" src="{{ pathto('_static/js/modernizr.min.js', 1) }}"></script>
   {%- if not embedded %}
-  {# XXX Sphinx 1.8.0 made this an external js-file, quick fix until we refactor the template to inherert more blocks directly from sphinx #}
+  {# XXX Sphinx 1.8.0 made this an external js-file, quick fix until we refactor the template to inherit more blocks directly from sphinx #}
     {% if sphinx_version >= "1.8.0" %}
       <script type="text/javascript" id="documentation_options" data-url_root="{{ pathto('', 1) }}" src="{{ pathto('_static/documentation_options.js', 1) }}"></script>
       {%- for scriptfile in script_files %}
@@ -132,11 +132,13 @@
         
           {% block sidebartitle %}
 
+          <!--
           {% if logo and theme_logo_only %}
             <a href="{{ pathto(master_doc) }}">
           {% else %}
-          <a href="{{ pathto(master_doc) }}" class="icon icon-home"> {{ project }}
+          <a href="{{ pathto(master_doc) }}" class="icon icon-home">{{ project }}
           {% endif %}
+          -->
           {% if logo %}
             {# Not strictly valid HTML, but it's the only way to display/scale
                it properly, without weird scripting or heaps of work
@@ -172,16 +174,6 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
-
-      
-  <!-- @@@@@@@@@@@@@@@@ Custom top bar @@@@@@@@@@@@@@@@
-       <div><img src="_images/header1.png" class="headerimage"/></div> 
-  <div class="fixedbar">
-    <a href="https://www.bioenergylists.org/stovesdoc/Still/Rocket%20Stove/Principles.html" class="topbarlink">10 Principles</a> 
-    <a href="http://batchrocket.eu/en/" class="topbarlink">Open Source Plans</a>
-    <a href="https://donkey32.proboards.com/" class="topbarlink"> Donkey's RS Forum</a> 
-    <a href="https://permies.com/f/125/rocket-stoves" class="topbarlink">Permies RS Forum</a>
-  </div> -->
 
 		
       {# MOBILE NAV, TRIGGERS SIDE NAV ON TOGGLE #}

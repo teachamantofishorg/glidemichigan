@@ -6,6 +6,6 @@ set root=..\docs\
 
 :: Build html docs
 sphinx-build -P -b html -d \doctrees\ -a . %root%
-rmdir /s /q \doctrees\
+::rmdir /s /q \doctrees\
 del %root%\.buildinfo
 del %root%\objects.inv

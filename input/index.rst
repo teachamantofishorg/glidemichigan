@@ -7,17 +7,24 @@ This website provides details hang gliding and paragliding sites in Michigan. It
 Suggestions? Join the `Facebook group <https://www.facebook.com/groups/364594247902907/?multi_permalinks=755841555444839&notif_id=1674326632081109&notif_t=feedback_reaction_generic&ref=notif>`_ or em=mail ben (dot) rogers (at) gmail
 
 .. toctree:: 
+   :maxdepth: 0
+
+   weather
+
+.. toctree:: 
    :caption: Foot launch sites
    :maxdepth: 0
    :titlesonly:
 
-   greenpoint
    sleepingbear 
+   greenpoint
    pyramidpoint
    duneclimb
    empirebluff
    acadia
    warrendunes
+   othersites
+
 
 .. toctree:: 
    :maxdepth: 0
@@ -25,5 +32,4 @@ Suggestions? Join the `Facebook group <https://www.facebook.com/groups/364594247
    :titlesonly:
 
    tow
-   learn
    camping
