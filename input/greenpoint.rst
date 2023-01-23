@@ -4,7 +4,7 @@ Greenpoint
 
 
 
-Details
+Details x
 ====================
 
 `Edit or copy the database <https://docs.google.com/spreadsheets/d/13TjBa0W4AJ3GwWZfhOYba3IDddCQI7ox6W3VpFw3wZY/edit?usp=sharing>`_
