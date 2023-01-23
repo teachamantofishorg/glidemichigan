@@ -1,3 +1,9 @@
+
+td.tablecell {
+   color: red;
+   font-size: 9px;
+}
+
 img {
   max-width: 98%;
   box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.75);

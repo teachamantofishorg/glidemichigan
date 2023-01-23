@@ -35,7 +35,7 @@ Details
                tableHead += "</tr>";
             } else {
                tableBody += "<tr>";
-               row.forEach((val) => (tableBody += "<td class="xxx">" + val + "</td>"));
+               row.forEach((val) => (tableBody += "<td class="tablecell">" + val + "</td>"));
                tableBody += "</tr>";
             }
          });
