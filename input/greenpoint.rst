@@ -7,20 +7,12 @@ Greenpoint
 Details
 ====================
 
-`Edit or copy the database <https://docs.google.com/spreadsheets/d/1O1r8choAQuhgh6FGf203ebjBLAv3VeXi2KZuJlWuQi4/edit?usp=sharing>`_
+`Edit or copy the database <https://docs.google.com/spreadsheets/d/13TjBa0W4AJ3GwWZfhOYba3IDddCQI7ox6W3VpFw3wZY/edit?usp=sharing>`_
 
 
 .. raw:: html
 
-   <!-- Table sorter -->
-   <link href="tablesorter/theme.default.css" rel="stylesheet">
-   <script src="tablesorter/jquery.tablesorter.min.js"></script>
-   <script src="tablesorter/jquery.tablesorter.widgets.min.js"></script>
-      <table class="table tablesorter">
-         <thead id="table-head"></thead>
-         <tbody id="table-body"></tbody>
-      </table>
-   <!-- Table -->
+
 
    <!-- MDB ESSENTIAL -->
    <script type="text/javascript" src="js/mdb.min.js"></script>
