@@ -64,7 +64,9 @@ Details x
          }
 
          function loadData() {
-         const spreadsheetId = "13TjBa0W4AJ3GwWZfhOYba3IDddCQI7ox6W3VpFw3wZY";
+         const spreadsheetId = "1O1r8choAQuhgh6FGf203ebjBLAv3VeXi2KZuJlWuQi4";
+         // const spreadsheetId = "13TjBa0W4AJ3GwWZfhOYba3IDddCQI7ox6W3VpFw3wZY";
+
          const range = "!A:C";
          getPublicValues({ spreadsheetId, range }, displayResult2);
          }
