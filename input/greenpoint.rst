@@ -2,54 +2,54 @@
 Greenpoint
 ************************************************
 
-Test
+Test a
 ===============
 
 .. raw:: html
                 
-  {
     {
-      // Your API KEY
-      const API_KEY = "AIzaSyDhOS3VJZ66Utl0lnHbSK8gH0BXz-wxRoU";
+      {
+        // Your API KEY
+        const API_KEY = "AIzaSyDhOS3VJZ66Utl0lnHbSK8gH0BXz-wxRoU";
 
-      function displayResult2(response) {
-        let tableHead = "";
-        let tableBody = "";
+        function displayResult2(response) {
+          let tableHead = "";
+          let tableBody = "";
 
-        response.result.values.forEach((row, index) => {
-          if (index === 0) {
-            tableHead += "<tr>";
-            row.forEach((val) => (tableHead += "<th>" + val + "</th>"));
-            tableHead += "</tr>";
-          } else {
-            tableBody += "<tr>";
-            row.forEach((val) => (tableBody += "<td>" + val + "</td>"));
-            tableBody += "</tr>";
-          }
+          response.result.values.forEach((row, index) => {
+            if (index === 0) {
+              tableHead += "<tr>";
+              row.forEach((val) => (tableHead += "<th>" + val + "</th>"));
+              tableHead += "</tr>";
+            } else {
+              tableBody += "<tr>";
+              row.forEach((val) => (tableBody += "<td>" + val + "</td>"));
+              tableBody += "</tr>";
+            }
+          });
+
+          document.getElementById("table-head").innerHTML = tableHead;
+          document.getElementById("table-body").innerHTML = tableBody;
+        }
+
+        function loadData() {
+          // Spreadsheet ID
+                  function loadData() {
+            //const spreadsheetId = "1O1r8choAQuhgh6FGf203ebjBLAv3VeXi2KZuJlWuQi4";
+            const spreadsheetId = "13TjBa0W4AJ3GwWZfhOYba3IDddCQI7ox6W3VpFw3wZY";
+          const range = "A:C";
+          getPublicValues({ spreadsheetId, range }, displayResult2);
+        }
+
+        window.addEventListener("load", (e) => {
+          initOAuthClient({ apiKey: API_KEY });
         });
 
-        document.getElementById("table-head").innerHTML = tableHead;
-        document.getElementById("table-body").innerHTML = tableBody;
+        document.addEventListener("gapi-loaded", (e) => {
+          loadData();
+        });
       }
-
-      function loadData() {
-        // Spreadsheet ID
-                function loadData() {
-          //const spreadsheetId = "1O1r8choAQuhgh6FGf203ebjBLAv3VeXi2KZuJlWuQi4";
-          const spreadsheetId = "13TjBa0W4AJ3GwWZfhOYba3IDddCQI7ox6W3VpFw3wZY";
-        const range = "A:C";
-        getPublicValues({ spreadsheetId, range }, displayResult2);
-      }
-
-      window.addEventListener("load", (e) => {
-        initOAuthClient({ apiKey: API_KEY });
-      });
-
-      document.addEventListener("gapi-loaded", (e) => {
-        loadData();
-      });
     }
-  }
                 
               
 
