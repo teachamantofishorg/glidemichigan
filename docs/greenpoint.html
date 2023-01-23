@@ -163,9 +163,55 @@
             
   <section id="greenpoint">
 <h1>Greenpoint<a class="headerlink" href="#greenpoint" title="Permalink to this heading"></a></h1>
-<section id="details-y">
-<h2>Details y<a class="headerlink" href="#details-y" title="Permalink to this heading"></a></h2>
+<section id="test">
+<h2>Test<a class="headerlink" href="#test" title="Permalink to this heading"></a></h2>
+{
+  {
+    // Your API KEY
+    const API_KEY = "AIzaSyDhOS3VJZ66Utl0lnHbSK8gH0BXz-wxRoU";
+
+    function displayResult2(response) {
+      let tableHead = "";
+      let tableBody = "";
+
+      response.result.values.forEach((row, index) => {
+        if (index === 0) {
+          tableHead += "<tr>";
+          row.forEach((val) => (tableHead += "<th>" + val + "</th>"));
+          tableHead += "</tr>";
+        } else {
+          tableBody += "<tr>";
+          row.forEach((val) => (tableBody += "<td>" + val + "</td>"));
+          tableBody += "</tr>";
+        }
+      });
+
+      document.getElementById("table-head").innerHTML = tableHead;
+      document.getElementById("table-body").innerHTML = tableBody;
+    }
+
+    function loadData() {
+      // Spreadsheet ID
+              function loadData() {
+        //const spreadsheetId = "1O1r8choAQuhgh6FGf203ebjBLAv3VeXi2KZuJlWuQi4";
+        const spreadsheetId = "13TjBa0W4AJ3GwWZfhOYba3IDddCQI7ox6W3VpFw3wZY";
+      const range = "A:C";
+      getPublicValues({ spreadsheetId, range }, displayResult2);
+    }
+
+    window.addEventListener("load", (e) => {
+      initOAuthClient({ apiKey: API_KEY });
+    });
+
+    document.addEventListener("gapi-loaded", (e) => {
+      loadData();
+    });
+  }
+}</section>
+<section id="details">
+<h2>Details<a class="headerlink" href="#details" title="Permalink to this heading"></a></h2>
 <p><a class="reference external" href="https://docs.google.com/spreadsheets/d/13TjBa0W4AJ3GwWZfhOYba3IDddCQI7ox6W3VpFw3wZY/edit?usp=sharing">Edit or copy the database</a></p>
+<p><a class="reference external" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vT9LtwnjCkJ_Rq1Gi00XFsjvjxtHq4AE3aMTzMTA99Po9OGJm6C8K4x6A0-1RtUPzt3WRpwCznpBSiQ/pubhtml">https://docs.google.com/spreadsheets/d/e/2PACX-1vT9LtwnjCkJ_Rq1Gi00XFsjvjxtHq4AE3aMTzMTA99Po9OGJm6C8K4x6A0-1RtUPzt3WRpwCznpBSiQ/pubhtml</a></p>
 <!-- Table sorter -->
 <link href="tablesorter/theme.default.css" rel="stylesheet">
 <script src="tablesorter/jquery.tablesorter.min.js"></script>
