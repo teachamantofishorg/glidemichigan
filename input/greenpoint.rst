@@ -12,7 +12,15 @@ Details
 
 .. raw:: html
 
-
+   <!-- Table sorter -->
+   <link href="tablesorter/theme.default.css" rel="stylesheet">
+   <script src="tablesorter/jquery.tablesorter.min.js"></script>
+   <script src="tablesorter/jquery.tablesorter.widgets.min.js"></script>
+      <table class="table tablesorter">
+         <thead id="table-head"></thead>
+         <tbody id="table-body"></tbody>
+      </table>
+   <!-- Table -->
 
    <!-- MDB ESSENTIAL -->
    <script type="text/javascript" src="js/mdb.min.js"></script>
