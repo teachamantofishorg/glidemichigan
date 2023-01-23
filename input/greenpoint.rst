@@ -7,6 +7,8 @@ Greenpoint
 Details
 ====================
 
+`Edit or copy the database <https://docs.google.com/spreadsheets/d/1O1r8choAQuhgh6FGf203ebjBLAv3VeXi2KZuJlWuQi4/edit?usp=sharing>`_
+
 
 .. raw:: html
 
@@ -45,7 +47,7 @@ Details
                tableHead += "</tr>";
             } else {
                tableBody += "<tr>";
-               row.forEach((val) => (tableBody += "<td class="tablecell">" + val + "</td>"));
+               row.forEach((val) => (tableBody += "<td>" + val + "</td>"));
                tableBody += "</tr>";
             }
          });
@@ -78,7 +80,6 @@ Details
       }
    }
    </script>
-
 
 
 
