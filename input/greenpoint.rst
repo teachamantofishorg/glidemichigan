@@ -7,52 +7,77 @@ Greenpoint
 Details
 ====================
 
-.. list-table:: 
-   :widths: 20 80
-   :header-rows: 1
 
-   * - What?
-     - Details
-   * - MSL
-     - 
-   * - Vertical
-     - 
-   * - Type of Site
-     - Lakeshore dune
-   * - Wing types
-     - HG, PG
-   * - Type of Flying
-     - Ridge soaring
-   * - Glide to LZ
-     - Depends on the water level. It's a good idea only launch if you can make 1/4+ miles. The main LZ in Elberta is 1.5 miles away.
-   * - Rating/Skills
-     - 
-   * - Wind Direction
-     - 260
-   * - Season
-     - Year round, best in the fall
-   * - Dangers
-     - Lake Michigan
-   * - Description of Launch
-     - Ramp
-   * - Directions to Launch 
-     - M22 South out of Elberta, right on Ellsworth Trail, left on Rudy's Trail.
-   * - Description of LZ
-     - Wide open beach
-   * - Directions to LZ
-     - Elberta beach in front of the parking lot  
-   * - Do Not Land areas
-     - You have to land on the beach.
-   * - GPS 
-     - NO: N ................... W ...................    
-   * - Fees
-     - 40.00 (monthly pass); 140.00 (year membership)
-   * - Radio
-     - 151.625
-   * - Contact
-     - Find the Greenpoint Flyers Facebook page and ask for an invite.
-   * - Notes
-     -
+.. raw:: html
+
+   <!-- Table sorter -->
+   <link href="tablesorter/theme.default.css" rel="stylesheet">
+   <script src="tablesorter/jquery.tablesorter.min.js"></script>
+   <script src="tablesorter/jquery.tablesorter.widgets.min.js"></script>
+      <table class="table tablesorter">
+         <thead id="table-head"></thead>
+         <tbody id="table-body"></tbody>
+      </table>
+   <!-- Table -->
+
+   <!-- MDB ESSENTIAL -->
+   <script type="text/javascript" src="js/mdb.min.js"></script>
+   <!-- Google API -->
+   <script src="https://apis.google.com/js/api.js"></script>
+   <!-- easyData -->
+   <script type="text/javascript" src="js/easyData-google-sheets.js"></script>
+
+   <!-- easyData - Creating table -->
+   <script>
+   {
+      {
+         const API_KEY = "AIzaSyDhOS3VJZ66Utl0lnHbSK8gH0BXz-wxRoU";
+   
+
+         function displayResult2(response) {
+         let tableHead = "";
+         let tableBody = "";
+
+         response.result.values.forEach((row, index) => {
+            if (index === 0) {
+               tableHead += "<tr>";
+               row.forEach((val) => (tableHead += "<th>" + val + "</th>"));
+               tableHead += "</tr>";
+            } else {
+               tableBody += "<tr>";
+               row.forEach((val) => (tableBody += "<td>" + val + "</td>"));
+               tableBody += "</tr>";
+            }
+         });
+
+         document.getElementById("table-head").innerHTML = tableHead;
+         document.getElementById("table-body").innerHTML = tableBody;
+
+         $('table').tablesorter({
+                  widgets        : ['zebra', 'columns'],
+                  usNumberFormat : false,
+                  sortReset      : true,
+                  sortRestart    : true
+         });
+         }
+
+         function loadData() {
+         // from https://docs.google.com/spreadsheets/d/1O1r8choAQuhgh6FGf203ebjBLAv3VeXi2KZuJlWuQi4/edit?usp=sharing
+         const spreadsheetId = "1O1r8choAQuhgh6FGf203ebjBLAv3VeXi2KZuJlWuQi4";
+         const range = "!A:M";
+         getPublicValues({ spreadsheetId, range }, displayResult2);
+         }
+
+         window.addEventListener("load", (e) => {
+         initOAuthClient({ apiKey: API_KEY });
+         });
+
+         document.addEventListener("gapi-loaded", (e) => {
+         loadData();
+         });
+      }
+   }
+   </script>
 
 
 
@@ -60,6 +85,33 @@ Details
 Photos
 ==========================
 
-Campground and ramp
+The campground is awesome. The ramp sucks and requires wire help. 
 
 .. image:: images/greenpoint1.png
+
+
+USHPA Greenpoint club factoids
+======================================
+
+Greenpoint Flyers Association (GFA) is an USHPA chapter. 
+
+GFA membership requires buying a share of the GFA corporation. 
+
+A person or family can only hold one share. 
+
+Cost? Varies by the seller. 
+
+How many total shares are there? Unknown. 
+
+GFA supposedly has bylaws and a roster that must be filed with USHPA, but only shareholders can see those docs. 
+
+GFA is run by a board of directors. Only shareholders can participate in elections.  
+
+Website? No. 
+
+Open forum or Facebook page? No. Invite only. They've been known to delete posts they don't like, so free speech does not apply. 
+
+Paying flight dues does not make you a member. Your fee only entitles you to fly Greenpoint. It does not entitle you to vote or participate in meetings. 
+
+
+
