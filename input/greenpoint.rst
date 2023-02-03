@@ -11,7 +11,7 @@ The HG ramp is not self-launch friendly and usually requires wire help.
 The PG launch is a dune swale that is partly on neighboring property. Until there's an issue, launching to the West is no problem. GFA property only allows for a NW launch.
               
 
-Details x
+Details
 ====================
 
 .. raw:: html
@@ -22,7 +22,7 @@ Details x
                     href="https://docs.google.com/spreadsheets/d/1O1r8choAQuhgh6FGf203ebjBLAv3VeXi2KZuJlWuQi4/edit?usp=sharing">Edit
                     or copy this data</a> </p>
                 <!-- Table sorter -->
-                <table class="table">
+                <table class="blueTable">
                   <thead id="table-head"></thead>
                   <tbody id="table-body"></tbody>
                 </table>
@@ -53,7 +53,7 @@ Details x
                             tableHead += "</tr>";
                           } else {
                             tableBody += "<tr>";
-                            row.forEach((val) => (tableBody += "<td class="cell">" + val + "</td>"));
+                            row.forEach((val) => (tableBody += "<td>" + val + "</td>"));
                             tableBody += "</tr>";
                           }
                         });
