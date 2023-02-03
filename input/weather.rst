@@ -5,8 +5,6 @@ Weather page
 This page specifically targets sites in the greater Traverse City area: Sleeping Bear Dunes, Greenpoint, Acadia, Empire, and Pyramid Point.
 
 
-Ideal conditions: Around 20mpg @ 260. Primary weather resources: 
-
 * Windy: `Direction, speed, and forecast <https://www.windy.com/?44.628,-86.200,11>`_
 * NOAA Buoy: `Offshore wind (removed in winter) <https://www.ndbc.noaa.gov/station_page.php?station=45002&fbclid=IwAR3TVu2dXanHPiR5DH7GFNMYzbVNCqY_XZuU0H0M1zifWcq2FqCoufyxlTk>`_ reading several miles away
 * Elberta pier: `Current wind <https://sailflow.com/map#44.592,-86.21,11,1>`_
