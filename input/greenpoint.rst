@@ -16,14 +16,7 @@ Details
                     href="https://docs.google.com/spreadsheets/d/1O1r8choAQuhgh6FGf203ebjBLAv3VeXi2KZuJlWuQi4/edit?usp=sharing">Edit
                     or copy this data</a> </p>
                 <!-- Table sorter -->
-                <link href="tablesorter/theme.default.css" rel="stylesheet">
-                <script src="tablesorter/jquery.tablesorter.min.js"></script>
-                <script src="tablesorter/jquery.tablesorter.widgets.min.js"></script>
-                <table class="table tablesorter">
-                  <thead id="table-head"></thead>
-                  <tbody id="table-body"></tbody>
-                </table>
-                <!-- Table -->
+
 
                 <!-- MDB ESSENTIAL -->
                 <script type="text/javascript" src="js/mdb.min.js"></script>
@@ -58,12 +51,7 @@ Details
                         document.getElementById("table-head").innerHTML = tableHead;
                         document.getElementById("table-body").innerHTML = tableBody;
 
-                        $('table').tablesorter({
-                          widgets: ['zebra', 'columns'],
-                          usNumberFormat: false,
-                          sortReset: true,
-                          sortRestart: true
-                        });
+
                       }
 
                       function loadData() {
