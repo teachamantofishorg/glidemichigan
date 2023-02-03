@@ -69,12 +69,13 @@ a.topbarlink {font-weight:bold; padding-right:3em;  font-variant: small-caps; fo
 td > p {font-size:90%;}
 th > p {padding-bottom:0; margin-bottom:0;}
 
-td {
+.cell {
   font-size: 90%;
-  line-height: 110%;
   padding: .5em;
-  color:red;
+}
 
+.tables {
+   border:1px
 }
 
 @media screen and (min-width: 767px) {

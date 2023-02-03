@@ -164,17 +164,18 @@
   <section id="greenpoint">
 <h1>Greenpoint<a class="headerlink" href="#greenpoint" title="Permalink to this heading"></a></h1>
 <p>Overview</p>
-<section id="details">
-<h2>Details<a class="headerlink" href="#details" title="Permalink to this heading"></a></h2>
+<p>The campground is awesome.</p>
+<p>The HG ramp is not self-launch friendly and usually requires wire help.</p>
+<p>The PG launch is a dune swale that is partly on neighboring property. Until there’s an issue, launching to the West is no problem. GFA property only allows for a NW launch.</p>
+<section id="details-x">
+<h2>Details x<a class="headerlink" href="#details-x" title="Permalink to this heading"></a></h2>
 <section id="motor-database">
 
     <p><a class="reference external"
         href="https://docs.google.com/spreadsheets/d/1O1r8choAQuhgh6FGf203ebjBLAv3VeXi2KZuJlWuQi4/edit?usp=sharing">Edit
         or copy this data</a> </p>
     <!-- Table sorter -->
-    <link href="tablesorter/theme.default.css" rel="stylesheet">
-
-    <table class="table tablesorter">
+    <table class="table">
       <thead id="table-head"></thead>
       <tbody id="table-body"></tbody>
     </table>
@@ -205,7 +206,7 @@
                 tableHead += "</tr>";
               } else {
                 tableBody += "<tr>";
-                row.forEach((val) => (tableBody += "<td>" + val + "</td>"));
+                row.forEach((val) => (tableBody += "<td class="cell">" + val + "</td>"));
                 tableBody += "</tr>";
               }
             });
@@ -240,7 +241,6 @@
   </section></section>
 <section id="photos">
 <h2>Photos<a class="headerlink" href="#photos" title="Permalink to this heading"></a></h2>
-<p>The campground is awesome. The ramp sucks and requires wire help.</p>
 <img alt="_images/greenpoint1.png" src="_images/greenpoint1.png" />
 </section>
 </section>

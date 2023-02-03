@@ -3,9 +3,15 @@ Greenpoint
 ************************************************
 
 Overview      
+
+The campground is awesome. 
+
+The HG ramp is not self-launch friendly and usually requires wire help. 
+
+The PG launch is a dune swale that is partly on neighboring property. Until there's an issue, launching to the West is no problem. GFA property only allows for a NW launch.
               
 
-Details
+Details x
 ====================
 
 .. raw:: html
@@ -16,9 +22,7 @@ Details
                     href="https://docs.google.com/spreadsheets/d/1O1r8choAQuhgh6FGf203ebjBLAv3VeXi2KZuJlWuQi4/edit?usp=sharing">Edit
                     or copy this data</a> </p>
                 <!-- Table sorter -->
-                <link href="tablesorter/theme.default.css" rel="stylesheet">
-
-                <table class="table tablesorter">
+                <table class="table">
                   <thead id="table-head"></thead>
                   <tbody id="table-body"></tbody>
                 </table>
@@ -49,7 +53,7 @@ Details
                             tableHead += "</tr>";
                           } else {
                             tableBody += "<tr>";
-                            row.forEach((val) => (tableBody += "<td>" + val + "</td>"));
+                            row.forEach((val) => (tableBody += "<td class="cell">" + val + "</td>"));
                             tableBody += "</tr>";
                           }
                         });
@@ -87,8 +91,6 @@ Details
 
 Photos
 ==========================
-
-The campground is awesome. The ramp sucks and requires wire help. 
 
 .. image:: images/greenpoint1.png
 
