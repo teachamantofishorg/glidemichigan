@@ -14,7 +14,7 @@ Park rules
 
 Intro: tbd
 
-`Link to regulations <parksitesjune22.pdf>`_.
+`Link to park regulations <parksitesjune22.pdf>`_.
 
 Special considerations
 =============================
