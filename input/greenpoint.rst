@@ -2,13 +2,15 @@
 Greenpoint
 ************************************************
 
-Overview      
 
 The campground is awesome. 
 
 The HG ramp is not self-launch friendly and usually requires wire help. 
 
 The PG launch is a dune swale that is partly on neighboring property. Until there's an issue, launching to the West is no problem. GFA property only allows for a NW launch.
+
+Directions
+=================
               
 
 Details
