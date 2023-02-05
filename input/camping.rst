@@ -1,11 +1,20 @@
 ************************************************
-Camping for pilots
+USHPA Member Camping 
 ************************************************
 
-Please contribute to this page.
+
 
 Greenpoint
 ===============
 
+tbd
+
 Traverse City
 ===============
+
+tbd
+
+Other
+===================
+
+.. note:: If you want to add here, make the request here: https://www.facebook.com/groups/michigangliding

@@ -125,10 +125,19 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Saugatuck</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tunnelpark.html">Tunnel Park</a></li>
 </ul>
+<p class="caption" role="heading"><span class="caption-text">Upper Peninsula</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="tbd.html">TBD</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Potential Sites</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="tbd.html">TBD</a></li>
+</ul>
 <p class="caption" role="heading"><span class="caption-text">Miscellaneous</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="tow.html">Tow Locations</a></li>
-<li class="toctree-l1"><a class="reference internal" href="camping.html">Camping for pilots</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tow.html">Midwest Tow Locations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="camping.html">USHPA Member Camping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="todo.html">To Do List</a></li>
 </ul>
 
             
@@ -173,6 +182,78 @@
   <section id="saugatuck">
 <h1>Saugatuck<a class="headerlink" href="#saugatuck" title="Permalink to this heading"></a></h1>
 <p>TBD</p>
+<section id="details">
+<h2>Details<a class="headerlink" href="#details" title="Permalink to this heading"></a></h2>
+<p>TBD</p>
+<section id="motor-database">
+
+    <p><a class="reference external"
+        href="https://docs.google.com/spreadsheets/d/19ylKzbffOvfU3_kvy9z1Db_VSyAP5v7IBz_97-KSEdw/edit?usp=sharing">Edit
+        or copy this data</a> </p>
+
+    <!-- Table sorter -->
+    <table class="blueTable">
+      <thead id="table-head"></thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <!-- Table -->
+
+    <!-- MDB ESSENTIAL -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Google API -->
+    <script src="https://apis.google.com/js/api.js"></script>
+    <!-- easyData -->
+    <script type="text/javascript" src="js/easyData-google-sheets.js"></script>
+
+    <!-- easyData - Creating table -->
+    <script>
+      {
+        {
+          const API_KEY = "AIzaSyDhOS3VJZ66Utl0lnHbSK8gH0BXz-wxRoU";
+
+
+          function displayResult2(response) {
+            let tableHead = "";
+            let tableBody = "";
+
+            response.result.values.forEach((row, index) => {
+              if (index === 0) {
+                tableHead += "<tr>";
+                row.forEach((val) => (tableHead += "<th>" + val + "</th>"));
+                tableHead += "</tr>";
+              } else {
+                tableBody += "<tr>";
+                row.forEach((val) => (tableBody += "<td>" + val + "</td>"));
+                tableBody += "</tr>";
+              }
+            });
+
+            document.getElementById("table-head").innerHTML = tableHead;
+            document.getElementById("table-body").innerHTML = tableBody;
+
+          }
+
+          function loadData() {
+            const spreadsheetId = "2PACX-1vTE-6GfnZHSTkPLrU0-amJKWxBhexUr0_lr6-6KdwJeRwn10SNVYU5Cp5KnH-dMoS4nZXnhKSAFzu1e";
+            const range = "!A:C";
+            getPublicValues({ spreadsheetId, range }, displayResult2);
+          }
+
+          window.addEventListener("load", (e) => {
+            initOAuthClient({ apiKey: API_KEY });
+          });
+
+          document.addEventListener("gapi-loaded", (e) => {
+            loadData();
+          });
+        }
+      }
+    </script>
+  </section><section id="photos">
+<h3>Photos<a class="headerlink" href="#photos" title="Permalink to this heading"></a></h3>
+<img alt="_images/saug1.png" src="_images/saug1.png" />
+</section>
+</section>
 </section>
 
 
@@ -190,7 +271,7 @@
     <p>
     <img src="_images/dq1.jpg"  class="endimage"/>
       <span class="lastupdated">&nbsp;&nbsp;&nbsp;
-        Last updated on Feb 04, 2023.
+        Last updated on Feb 05, 2023.
         
       </span>
     </p>

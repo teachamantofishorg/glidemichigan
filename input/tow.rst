@@ -1,10 +1,8 @@
 ************************************************
-Tow Locations
+Midwest Tow Locations
 ************************************************
 
-Intro blurb
-
-TBD: Insert image. 
+.. note:: If you want to add here, make the request here: https://www.facebook.com/groups/michigangliding
 
 .. image:: images/uc2.gif
 
@@ -50,6 +48,6 @@ They normally run a weekend-only show.
 Airfields
 ============
 
-* Thompsonville, Michigan: Was once a tow site. Probably still an option. 
+* Thompsonville, Michigan: Was once a tow site. Probably still available.
 * Other Northern Michigan strips: There are many. 
 

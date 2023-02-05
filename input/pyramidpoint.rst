@@ -19,12 +19,16 @@ Flying is limited to 5 gliders at a time. Carts may be used to transport gliders
 
 All flights at Pyramid Point will be initiated from the blowout at the top of the bluff. All pilots landing on the beach below Pyramid Point will exit the area via the trail that ends at the east end of the dune area. The face of the bluff will be avoided and will not be climbed. Pilots may also land in the field east of the Klett Farm or in the field that is south of Baker Road and east of Port Oneida Road.
 
+======================
+
+TBD
+
 .. raw:: html
 
             <section id="motor-database">
 
                 <p><a class="reference external"
-                    href="https://docs.google.com/spreadsheets/d/1rKDSa2vtXpZv6oLBb6BPHeFEZU1INiJS1_VSzBNVE00/edit?usp=sharing">Edit
+                    href="https://docs.google.com/spreadsheets/d/19ylKzbffOvfU3_kvy9z1Db_VSyAP5v7IBz_97-KSEdw/edit?usp=sharing">Edit
                     or copy this data</a> </p>
 
                 <!-- Table sorter -->
@@ -70,12 +74,7 @@ All flights at Pyramid Point will be initiated from the blowout at the top of th
                       }
 
                       function loadData() {
-                        // the sheet ID is the ONLY change
-                        // 2PACX-1vT9LtwnjCkJ_Rq1Gi00XFsjvjxtHq4AE3aMTzMTA99Po9OGJm6C8K4x6A0-1RtUPzt3WRpwCznpBSiQ (what I get when publishing to the web)
-                        // 13TjBa0W4AJ3GwWZfhOYba3IDddCQI7ox6W3VpFw3wZY (what I get when sharing with others)
-      
-                        const spreadsheetId = "1rKDSa2vtXpZv6oLBb6BPHeFEZU1INiJS1_VSzBNVE00";
-                        
+                        const spreadsheetId = "2PACX-1vRIwRmcCndNh0RnYDz4lnlyOFnZWFnv1FuGdG-R89V_OpfLenE3csQ_IerRwFtbpoYJQrg6bi4QgnM7";  
                         const range = "!A:C";
                         getPublicValues({ spreadsheetId, range }, displayResult2);
                       }
@@ -90,12 +89,9 @@ All flights at Pyramid Point will be initiated from the blowout at the top of th
                     }
                   }
                 </script>
-
               </section>
 
-
-
 Photos
-==========================
+---------------------------
 
 tbd

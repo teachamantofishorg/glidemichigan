@@ -36,7 +36,7 @@ Details
             <section id="motor-database">
 
                 <p><a class="reference external"
-                    href="https://docs.google.com/spreadsheets/d/1O1r8choAQuhgh6FGf203ebjBLAv3VeXi2KZuJlWuQi4/edit?usp=sharing">Edit
+                    href="https://docs.google.com/spreadsheets/d/13TjBa0W4AJ3GwWZfhOYba3IDddCQI7ox6W3VpFw3wZY/edit?usp=sharing">Edit
                     or copy this data</a> </p>
                 <!-- Table sorter -->
                 <table class="blueTable">

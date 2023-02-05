@@ -48,7 +48,7 @@
   <link rel="stylesheet" href="_static/css/theme_overrides.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Tow Locations" href="tow.html" />
+    <link rel="next" title="TBD" href="tbd.html" />
     <link rel="prev" title="Saugatuck" href="saugatuck.html" /> 
   <style>
   .wy-nav-content {max-width:90%}
@@ -125,10 +125,19 @@
 <li class="toctree-l1"><a class="reference internal" href="saugatuck.html">Saugatuck</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Tunnel Park</a></li>
 </ul>
+<p class="caption" role="heading"><span class="caption-text">Upper Peninsula</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="tbd.html">TBD</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Potential Sites</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="tbd.html">TBD</a></li>
+</ul>
 <p class="caption" role="heading"><span class="caption-text">Miscellaneous</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="tow.html">Tow Locations</a></li>
-<li class="toctree-l1"><a class="reference internal" href="camping.html">Camping for pilots</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tow.html">Midwest Tow Locations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="camping.html">USHPA Member Camping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="todo.html">To Do List</a></li>
 </ul>
 
             
@@ -162,7 +171,7 @@
       </li>
   </ul><div class="rst-breadcrumbs-buttons" role="navigation" aria-label="Sequential page navigation">
         <a href="saugatuck.html" class="btn btn-neutral float-left" title="Saugatuck" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="tow.html" class="btn btn-neutral float-right" title="Tow Locations" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="tbd.html" class="btn btn-neutral float-right" title="TBD" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
   </div>
   <hr/>
 </div>
@@ -174,6 +183,85 @@
 <h1>Tunnel Park<a class="headerlink" href="#tunnel-park" title="Permalink to this heading"></a></h1>
 <p>TBD</p>
 <p>Paragliders have flown there in the winter. May be too crowded in the summer.</p>
+<section id="details">
+<h2>Details<a class="headerlink" href="#details" title="Permalink to this heading"></a></h2>
+<p>TBD</p>
+<section id="motor-database">
+
+    <p><a class="reference external"
+        href="https://docs.google.com/spreadsheets/d/1whH1AtSidc4EK0SP6srEKr8JdlUwjfqVcTtDxGWDFS4/edit?usp=sharing">Edit
+        or copy this data</a> </p>
+
+    <!-- Table sorter -->
+    <table class="blueTable">
+      <thead id="table-head"></thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <!-- Table -->
+
+    <!-- MDB ESSENTIAL -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Google API -->
+    <script src="https://apis.google.com/js/api.js"></script>
+    <!-- easyData -->
+    <script type="text/javascript" src="js/easyData-google-sheets.js"></script>
+
+    <!-- easyData - Creating table -->
+    <script>
+      {
+        {
+          const API_KEY = "AIzaSyDhOS3VJZ66Utl0lnHbSK8gH0BXz-wxRoU";
+
+
+          function displayResult2(response) {
+            let tableHead = "";
+            let tableBody = "";
+
+            response.result.values.forEach((row, index) => {
+              if (index === 0) {
+                tableHead += "<tr>";
+                row.forEach((val) => (tableHead += "<th>" + val + "</th>"));
+                tableHead += "</tr>";
+              } else {
+                tableBody += "<tr>";
+                row.forEach((val) => (tableBody += "<td>" + val + "</td>"));
+                tableBody += "</tr>";
+              }
+            });
+
+            document.getElementById("table-head").innerHTML = tableHead;
+            document.getElementById("table-body").innerHTML = tableBody;
+
+          }
+
+          function loadData() {
+            // the sheet ID is the ONLY change
+            // 2PACX-1vT9LtwnjCkJ_Rq1Gi00XFsjvjxtHq4AE3aMTzMTA99Po9OGJm6C8K4x6A0-1RtUPzt3WRpwCznpBSiQ (what I get when publishing to the web)
+            // 13TjBa0W4AJ3GwWZfhOYba3IDddCQI7ox6W3VpFw3wZY (what I get when sharing with others)
+
+
+            const spreadsheetId = "1vTieHQPqpnuyOHje67XEawFF44M0PsVkezllldgizABI0SQeTEMeg_Qc8M3eN1x1k2AsVF0TZUaL4HN";
+
+            const range = "!A:C";
+            getPublicValues({ spreadsheetId, range }, displayResult2);
+          }
+
+          window.addEventListener("load", (e) => {
+            initOAuthClient({ apiKey: API_KEY });
+          });
+
+          document.addEventListener("gapi-loaded", (e) => {
+            loadData();
+          });
+        }
+      }
+    </script>
+
+  </section><section id="photos">
+<h3>Photos<a class="headerlink" href="#photos" title="Permalink to this heading"></a></h3>
+<p>tbd</p>
+</section>
+</section>
 </section>
 
 
@@ -191,7 +279,7 @@
     <p>
     <img src="_images/dq1.jpg"  class="endimage"/>
       <span class="lastupdated">&nbsp;&nbsp;&nbsp;
-        Last updated on Feb 04, 2023.
+        Last updated on Feb 05, 2023.
         
       </span>
     </p>

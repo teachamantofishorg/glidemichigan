@@ -24,7 +24,7 @@ Hang gliding or paragliding is allowed on the east face of the Dune Climb from N
             <section id="motor-database">
 
                 <p><a class="reference external"
-                    href="https://docs.google.com/spreadsheets/d/1LonjmR18rfkfzixBVeWdExnEeoR8efkAnBFFbX_BITs/edit?usp=sharing">Edit
+                    href="https://docs.google.com/spreadsheets/d/1YxBgLFgAPA1eecVj8pd3vcZd0Cz_Ptz4RYHWJPVGo7w/edit?usp=sharing">Edit
                     or copy this data</a> </p>
 
                 <!-- Table sorter -->
@@ -70,12 +70,7 @@ Hang gliding or paragliding is allowed on the east face of the Dune Climb from N
                       }
 
                       function loadData() {
-                        // the sheet ID is the ONLY change
-                        // 2PACX-1vT9LtwnjCkJ_Rq1Gi00XFsjvjxtHq4AE3aMTzMTA99Po9OGJm6C8K4x6A0-1RtUPzt3WRpwCznpBSiQ (what I get when publishing to the web)
-                        // 13TjBa0W4AJ3GwWZfhOYba3IDddCQI7ox6W3VpFw3wZY (what I get when sharing with others)
-      
-                        const spreadsheetId = "1LonjmR18rfkfzixBVeWdExnEeoR8efkAnBFFbX_BITs";
-                        
+                        const spreadsheetId = "2PACX-1vSNaYvABybBsosn3Tu-77Q-tFsXB-V6zCsDx3zcKB4FP2J4hippyc9kjfU8PWaiGSZiEYYsS8N2p9cB";
                         const range = "!A:C";
                         getPublicValues({ spreadsheetId, range }, displayResult2);
                       }
