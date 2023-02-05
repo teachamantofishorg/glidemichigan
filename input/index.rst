@@ -12,18 +12,36 @@ Suggestions? Join the `Facebook group <https://www.facebook.com/groups/364594247
    weather
 
 .. toctree:: 
-   :caption: Foot launch sites
+   :caption: Northwest Michigan Sites
    :maxdepth: 0
    :titlesonly:
 
    sleepingbear 
-   greenpoint
    pyramidpoint
-   duneclimb
    empirebluff
+   duneclimb
+   lakeoverlook
    acadia
+   greenpoint
+
+.. toctree:: 
+   :caption: Southern Michigan Sites
+   :maxdepth: 0
+   :titlesonly:
+
    warrendunes
-   othersites
+   saugatuck 
+   tunnelpark
+
+.. toctree:: 
+   :caption: Upper Peninsula
+   :maxdepth: 0
+   :titlesonly:
+
+.. toctree:: 
+   :caption: Potential Sites
+   :maxdepth: 0
+   :titlesonly:
 
 
 .. toctree:: 
