@@ -73,7 +73,7 @@ When landing in the North Bar Lake area, please respect the privacy of cottage o
                       }
 
                       function loadData() {
-                        const spreadsheetId = "2PACX-1vQ1Rymdig8rJi4_xkYPFMd7Lp-geVqJ6POY68S4EHLNa9YqrT3bKWFVxMAEMBI52cwPC2iBAeKps3_g";            
+                        const spreadsheetId = "1RAIZT_-dX5oBPBAwDZZMUF6dwFKYLCCErkrDqaOzenM";            
                         const range = "!A:C";
                         getPublicValues({ spreadsheetId, range }, displayResult2);
                       }

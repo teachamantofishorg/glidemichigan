@@ -59,7 +59,7 @@ Details
                       }
 
                       function loadData() {
-                        const spreadsheetId = "2PACX-1vQ9IXOJ7QTuTGU79MnQ07M7KpHLNOKpgqYnmgK-OTQB2b1SLTNdUChfTuB3K6inKGEBuwzKrTDR_wCF";
+                        const spreadsheetId = "1-PqxsluZI5Co61Aeo5f9DMXP-aJIz-vAeRJbfzTN-xU";
                         const range = "!A:C";
                         getPublicValues({ spreadsheetId, range }, displayResult2);
                       }

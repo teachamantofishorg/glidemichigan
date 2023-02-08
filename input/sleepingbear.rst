@@ -85,7 +85,7 @@ Flying is limited to 5 gliders at a time.
                       }
 
                       function loadData() {
-                        const spreadsheetId = "2PACX-1vT6DJkI3WzBPtRjvipG2pxpWNoSdkxxPwbu_cPEreQUGrU-C8ZEmjEFV2Z4EWG7z9_BTxQsIoMhMVJZ";
+                        const spreadsheetId = "1yiO-VzdGjWFEVoA9B0QAauQndoyHSNJork9m4a6oHI8";
                         const range = "!A:C";
                         getPublicValues({ spreadsheetId, range }, displayResult2);
                       }

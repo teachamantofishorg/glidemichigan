@@ -70,7 +70,7 @@ Hang gliding or paragliding is allowed on the east face of the Dune Climb from N
                       }
 
                       function loadData() {
-                        const spreadsheetId = "2PACX-1vSNaYvABybBsosn3Tu-77Q-tFsXB-V6zCsDx3zcKB4FP2J4hippyc9kjfU8PWaiGSZiEYYsS8N2p9cB";
+                        const spreadsheetId = "1YxBgLFgAPA1eecVj8pd3vcZd0Cz_Ptz4RYHWJPVGo7w";
                         const range = "!A:C";
                         getPublicValues({ spreadsheetId, range }, displayResult2);
                       }

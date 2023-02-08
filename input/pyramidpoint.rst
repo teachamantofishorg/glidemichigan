@@ -74,7 +74,7 @@ TBD
                       }
 
                       function loadData() {
-                        const spreadsheetId = "2PACX-1vRIwRmcCndNh0RnYDz4lnlyOFnZWFnv1FuGdG-R89V_OpfLenE3csQ_IerRwFtbpoYJQrg6bi4QgnM7";  
+                        const spreadsheetId = "1rKDSa2vtXpZv6oLBb6BPHeFEZU1INiJS1_VSzBNVE00";  
                         const range = "!A:C";
                         getPublicValues({ spreadsheetId, range }, displayResult2);
                       }

@@ -2,6 +2,7 @@
 To Do List
 ************************************************
 
+* Add overview map and intro to home page
 * Add photos
 * Add videos
 * Solicit data contributions from Midwest chapters

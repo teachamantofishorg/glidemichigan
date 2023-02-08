@@ -60,13 +60,7 @@ TBD
                       }
 
                       function loadData() {
-                        // the sheet ID is the ONLY change
-                        // 2PACX-1vT9LtwnjCkJ_Rq1Gi00XFsjvjxtHq4AE3aMTzMTA99Po9OGJm6C8K4x6A0-1RtUPzt3WRpwCznpBSiQ (what I get when publishing to the web)
-                        // 13TjBa0W4AJ3GwWZfhOYba3IDddCQI7ox6W3VpFw3wZY (what I get when sharing with others)
-      
-
-                        const spreadsheetId = "2PACX-1vQnZSGik4oT4W4GIxCisD7V1CLjYmRtgU7cEWqRIl1T4md2EKVOUaS4Q-4Jvnknp_t-npe99E5bTSxu";
-                        
+                        const spreadsheetId = "1GoyXDPxbIcna80iQdPPafNde5h7dwld8EKfnDO59BsQ";  
                         const range = "!A:C";
                         getPublicValues({ spreadsheetId, range }, displayResult2);
                       }

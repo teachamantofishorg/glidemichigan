@@ -13,20 +13,12 @@ The HG ramp is not self-launch friendly and usually requires wire help.
 The PG launch is a dune swale that is partly on neighboring property. Until there's an issue, launching to the West is no problem. GFA property only allows for a NW launch.
 
 
-
-
 * Owner: Greenpoint Flyers Association
 * Fees: Day, month, and yearly passes
 * `GFA regulations <GreenpointRegulations.pdf>`_.
 * Understand the weather and learn about :ref:`eval`.
-* `PDF Map TBD
 
 .. image:: images/greenpointmap.png
-
-
-
-
-  
 
 Details
 ====================
@@ -57,8 +49,6 @@ Details
                   {
                     {
                       const API_KEY = "AIzaSyDhOS3VJZ66Utl0lnHbSK8gH0BXz-wxRoU";
-
-
                       function displayResult2(response) {
                         let tableHead = "";
                         let tableBody = "";
@@ -81,12 +71,7 @@ Details
                       }
 
                       function loadData() {
-                        // the sheet ID is the ONLY change
-                        // 2PACX-1vT9LtwnjCkJ_Rq1Gi00XFsjvjxtHq4AE3aMTzMTA99Po9OGJm6C8K4x6A0-1RtUPzt3WRpwCznpBSiQ (what I get when publishing to the web)
-                        // 13TjBa0W4AJ3GwWZfhOYba3IDddCQI7ox6W3VpFw3wZY (what I get when sharing with others)
-      
                         const spreadsheetId = "13TjBa0W4AJ3GwWZfhOYba3IDddCQI7ox6W3VpFw3wZY";
-                        
                         const range = "!A:C";
                         getPublicValues({ spreadsheetId, range }, displayResult2);
                       }
@@ -101,10 +86,7 @@ Details
                     }
                   }
                 </script>
-
               </section>
-
-
 
 Photos
 ==========================
