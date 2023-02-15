@@ -10,7 +10,9 @@ Overview TBD
 * Understand the weather and learn about :ref:`eval`.
 * `PDF Map <duneclimbmap.pdf>`_
 
-.. image:: images/duneclimbmap.png
+.. image:: images/overlookmap.png
+
+.. image:: images/overlookmap1.png
 
 Details
 ------------------------------

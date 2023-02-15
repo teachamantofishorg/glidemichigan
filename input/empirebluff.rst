@@ -12,6 +12,8 @@ Overview TBD
 
 .. image:: images/empirebluffmap.png
 
+.. image:: images/empirebluffmap1.png
+
 Details
 ====================
 

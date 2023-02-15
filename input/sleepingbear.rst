@@ -9,7 +9,6 @@ Overview TBD
 * Fees: None.
 * Permit: NPS issues one annual permit for all sites at the `Philip Hart Visitor Center <https://www.google.com/maps/place/Philip+A.+Hart+Visitor+Center/@44.8116366,-86.058379,17z/data=!3m1!4b1!4m5!3m4!1s0x881e1af9c6058f8f:0xf4e22c9117e103ea!8m2!3d44.8116328!4d-86.0561903?hl=en&authuser=0>`_.
 * Understand the weather and learn about :ref:`eval`.
-* `PDF Map TBD
 
 .. image:: images/sleepingbear.png
 
@@ -23,16 +22,12 @@ Intro: tbd
 Details
 ======================
 
-Flying is limited to 5 gliders at a time.
+* Flying is limited to 5 gliders at a time.
+* Avoid spectators. It may be too crowded to fly holidays.
+* No kiting. 
+* Check the LZ. The beach may be crowded or nonexistent due to high water. 
+* Remove streamers and telltales. 
 
-1. Park sites can be very crowded with spectators during the summer months especially on weekends and even more so during the major holidays. Pilots should not aerially perform for the spectators or increase risk in any manner.
-2. For Sleeping Bear, HG pilots are encouraged to set up in the grass zones near the parking area, hook into their glider and then walk their glider along the sidewalk to the launch location. HG and PG pilots should not leave their equipment unattended at any time.
-3. PG pilots should not practice kiting at the SB Park launch sites. PG and HG pilots should launch as quickly and safely as possible after set up is complete to minimize possible ground-based risks to spectators.
-4. During some years the beaches can be minimal or non-existent. Pilots should evaluate the landing area physical conditions before launching.
-5. Pilots launching at Sleeping Bear Overlook should only launch to the south (left) at a zone clear of spectators to the sides and below. If spectators or wind direction is prohibitive, north of the wood overlook can be used.
-6. Any wind streamer or tell-tale planted in the launch area should be removed shortly after launching.
-7. Since the visitor numbers at the SB Parks sites are increasing each year, it is recommended to consider not flying during the busy holidays. On Memorial Day weekend, July 4th and Labor Day weekend there can be 150+ spectators at the launch area (Sleeping Bear especially) and it can be difficult to clear the launch area for a safe launch.
-8. Check your intended LZ before launch. The beach LZ may not even exist.
 
 .. raw:: html
 

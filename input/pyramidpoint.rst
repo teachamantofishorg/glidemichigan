@@ -12,6 +12,12 @@ Overview TBD
 
 .. image:: images/pyramidpointmap.png
 
+.. image:: images/pyramidpointmap1.png
+
+.. image:: images/pyramidpointmap2.png
+
+.. image:: images/pyramidpointmap3.png
+
 Details
 ====================
 
