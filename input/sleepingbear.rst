@@ -10,6 +10,10 @@ Overview TBD
 * Permit: NPS issues one annual permit for all sites at the `Philip Hart Visitor Center <https://www.google.com/maps/place/Philip+A.+Hart+Visitor+Center/@44.8116366,-86.058379,17z/data=!3m1!4b1!4m5!3m4!1s0x881e1af9c6058f8f:0xf4e22c9117e103ea!8m2!3d44.8116328!4d-86.0561903?hl=en&authuser=0>`_.
 * Understand the weather and learn about :ref:`eval`.
 
+.. tip:: Pilots must have the phone photo or physical permit in hand when using any National Lakeshore land. 
+
+`Rules and maps in PDF <parksitesjune22.pdf>`_
+
 .. image:: images/sleepingbear.png
 
 Park rules
@@ -98,7 +102,24 @@ Details
 
               </section>
 
+Video
+==================
 
+
+Hang gliding 
+-----------------
+
+
+.. raw:: html
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/RUQiH4GCDhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  
+Paragliding
+------------------------
+
+.. raw:: html
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/UNNqsLnez6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Photos
 ---------------------------
