@@ -13,7 +13,7 @@ Suggestions or contributions? Join the `Facebook group <https://www.facebook.com
 
 .. toctree:: 
    :caption: Northwest Michigan Sites
-   :maxdepth: 0
+   :maxdepth: 2
    :titlesonly:
 
    sleepingbear 
@@ -26,7 +26,7 @@ Suggestions or contributions? Join the `Facebook group <https://www.facebook.com
 
 .. toctree:: 
    :caption: Southern Michigan Sites
-   :maxdepth: 0
+   :maxdepth: 2
    :titlesonly:
 
    warrendunes
@@ -34,14 +34,21 @@ Suggestions or contributions? Join the `Facebook group <https://www.facebook.com
 
 .. toctree:: 
    :caption: Upper Peninsula
-   :maxdepth: 0
+   :maxdepth: 2
    :titlesonly:
 
    tbd
 
 .. toctree:: 
+   :caption: Wisconsin Sites
+   :maxdepth: 2
+   :titlesonly:
+
+   sewisc
+
+.. toctree:: 
    :caption: Potential Sites
-   :maxdepth: 0
+   :maxdepth: 2
    :titlesonly:
 
    saugatuck
