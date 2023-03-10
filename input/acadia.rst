@@ -2,7 +2,9 @@
 Acadia
 ************************************************
 
-Arcadia Bluff is owned by the Grand Traverse Conservancy. It is open to the public and pilots. Due to the long walk to launch, this site is primarily flown by paraglider pilots. 
+Acadia Bluff is owned by the Grand Traverse Conservancy. It is open to the public and pilots. Due to the long walk to launch, this site is primarily flown by paraglider pilots. 
+
+Hang glider pilots can use carts, but they are not much use for the last few hundred yards of bare sand.
 
 
 Details
@@ -13,8 +15,7 @@ Details
             <section id="motor-database">
 
                 <p><a class="reference external"
-                    href="https://docs.google.com/spreadsheets/d/1-PqxsluZI5Co61Aeo5f9DMXP-aJIz-vAeRJbfzTN-xU/edit?usp=sharing">Edit
-                    or copy this data</a> </p>
+                    href="https://docs.google.com/spreadsheets/d/1-PqxsluZI5Co61Aeo5f9DMXP-aJIz-vAeRJbfzTN-xU/edit?usp=sharing">Edit or copy this data</a> </p>
 
                 <!-- Table sorter -->
                 <table class="blueTable">

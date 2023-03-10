@@ -24,7 +24,7 @@ Details:
 
 * Hazards:  
 
-  * If for some reason you must land on the nice little beach at S end of ridge, get away from there ASAP. That's property of the power plant and they do NOT want to see you there. Hurry to get back on park property to the north or armed security guards will confront you.
+  * If for some reason you must land on the nice little beach at the south end of ridge, leave ASAP. The property is owned by the power plant and they do NOT want to see you there. Hurry to get back on park property to the north or armed security guards will confront you.
   * Bottom LZs for hang gliders suck badly enough that it's not wise to even fly if it's not soarable (straight in at 18mph-plus is ideal). 
 
 Video
@@ -32,7 +32,7 @@ Video
 
 .. raw:: html
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZpWqVUAx_oI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/1XMWVYojzWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 Cliffside: Caledonia/Crestview

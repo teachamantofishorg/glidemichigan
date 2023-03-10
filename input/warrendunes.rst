@@ -2,6 +2,8 @@
 Warren Dunes
 ************************************************
 
+Warren Dunes has been a flying site since the 1970's, and was the original home of Moyes America operated by the Braddocks until the early 80s.
+
 See https://www.michigandnr.com/ParksandTrails/Details.aspx?id=504&type=SPRK
 
 
